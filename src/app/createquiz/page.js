@@ -52,7 +52,7 @@ const CreateQuizPage = () => {
               onChange={(event) =>
                 handleQuestions(
                   Number(event.target.value),
-                  "point",
+                  "points",
                   questionIndex,
                 )
               }
@@ -76,7 +76,7 @@ const CreateQuizPage = () => {
                       handleQuestions(
                         event.target.value,
                         "answers",
-                        questionIndex,
+                        answerIndex,
                       );
                     }}
                   />
